@@ -1,0 +1,19 @@
+.speech{
+    font-size: 18px;
+    color: black;
+}
+.direction{
+    font-size: 16px;
+    color: black;
+    background-color: lightpink;
+}
+.direction.hover{
+    background-color: rgb(7, 57, 74);
+    color:rgb(61, 57, 57);
+}
+.chubukov{
+    color: #5c443f;
+}
+.lomov{
+    color: #6a0572;
+}
