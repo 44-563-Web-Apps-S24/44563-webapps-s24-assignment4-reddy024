@@ -16,21 +16,30 @@
 .lomov{
     color: #6a0572;
 }
-.character-table{
-    width: 100%;
+
+table,th,td{
+    color: rgb(248, 1, 1);
+    border: 2px solid rgb(23, 156, 132);
     border-collapse: collapse;
-    margin-top:20px;
+
 }
-.character-table th, .character-table td {
-    border: 1px solid #333;
-    padding: 10px;
-    text-align: center;
+td{
+    text-align: left;
+}
+th,td{
+    padding-top:  15px;
+    padding-bottom: 20px;
+ }
+ th{
+     text-align: center;
+ }
+tr:nth-child(odd){
+background-color: bisque;
 }
 
-.character-table th {
-    background-color: #ddd;
+.STEPANOVNA:hover{
+    text-shadow: 1px 1px 5px rgb(4, 4, 4);
 }
-
-.character-table tbody tr:nth-child(even) {
-    background-color: #f2f2f2; 
+.LOMOV:hover{
+    text-shadow:  3px 6px blue
 }
