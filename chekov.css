@@ -3,45 +3,34 @@
     color: black;
 }
 .direction{
-    font-size: 16px;
+    font-size: 14px;
     color: black;
-    background-color: lightpink;
 }
-.direction.hover{
-    background-color: rgb(7, 57, 74);
-    color:rgb(61, 57, 57);
+.direction:hover{
+    background-color: lightblue;
+    color:black;
 }
 .chubukov{
-    color: #5c443f;
+    color: #ff5733;
 }
 .lomov{
     color: #6a0572;
 }
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-  }
-  
-  h1 {
-    text-align: center;
-  }
-  
-  .chekov-table {
+.character-table{
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
-  }
-  
-  .chekov-table th, .chekov-table td {
-    border: 1px solid #ddd;
+    margin-top:20px;
+}
+.character-table th, .character-table td {
+    border: 1px solid #333;
     padding: 10px;
-    text-align: left;
-  }
-  
-  .chekov-table th {
-    background-color: #f2f2f2;
-  }
-  
-  .chekov-table tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
+    text-align: center;
+}
+
+.character-table th {
+    background-color: #ddd;
+}
+
+.character-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
