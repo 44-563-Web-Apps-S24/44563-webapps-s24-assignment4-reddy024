@@ -4,14 +4,14 @@
 }
 .direction{
     font-size: 14px;
-    color: black;
+    color: rgb(255, 3, 3);
 }
 .direction:hover{
     background-color: lightblue;
     color:black;
 }
 .chubukov{
-    color: #ff5733;
+    color: #c2f11b;
 }
 .lomov{
     color: #6a0572;
